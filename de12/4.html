@@ -1,0 +1,62 @@
+<div>
+    <font size="6">第４回　pysonでゲームを作る</font><br>
+    <br>
+    <font size="3"></font>９班では、RPGゲームを作成しました。<br>
+    <br>
+    <font size="4">◯内容</font><br>
+    <font size="3">
+        <ul>
+            <li>背景：親に怒られそうなあなたは、なんとかしてその場をやり過ごしたい。<br> </li>
+            <li>３つの数字の中から一つを選択し、進めていく。</li><br>
+        </ul>
+    </font>
+
+</div>
+<br>
+<font size="4">◯ソースコード</font><br>
+<br>
+<code>
+    <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#F7F7F7;color:#000;">
+    <li>&lt;code&gt;</li>
+    <li>&lt;ol style=<font style="color:brown;">"list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#FFF7F7;color:#A00;"</font>&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"あなたは今、約束を守らず、親に怒られている！"</font>&lt;/font&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"もし今回も下手なことを言ったら、追い出されるかもしれない。"</font>&lt;/font&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"さあなんて言おう..."</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;name=input(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"まず、あなたのお名前は？"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;selecta = int(input(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"運命の数字1〜3の中から選んでね！"</font>&lt;/font&gt;))&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;if selecta ==1:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"反抗期がきた！"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;elif selecta == 3:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"人のせいにする！"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;elif selecta == 2:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"理由を正直に言って、反省した顔をする"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"母は詳しい事情を聞こうとしてきた。でもちょっと言いづらい..."</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;selectb = int(input(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"1~3の中から選んでね！"</font>&lt;/font&gt;))&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;if selectb == 1: &lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"話をずらし、ごまかす！"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;elif selectb == 2:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"事情は詳しく話せないから無視だ！"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;elif selectb == 3:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"嘘と本当のハイブリット型！"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"母はなんとか納得し、今後どう行動すればいいのか聞いてきた。"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;selectc = int(input(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"運命の数字1〜3の中から選んでね！"</font>&lt;/font&gt;))&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;if selectc == 1:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"だるいからとりあえずごまかす"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;elif selectc == 2:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"３時間かけて計画書を作成し、提出する。"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;elif selectc ==3:&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"もうよくわからないから一緒に考える"</font>&lt;/font&gt;)&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFFDFD;"</font>&gt;&amp;nbsp;&lt;/li&gt;</li>
+    <li>&lt;li style=<font style="color:brown;">"background-color:#FFF7F7;"</font>&gt;print(&lt;font style=<font style="color:brown;">"color:#55B;"</font>&gt;<font style="color:brown;">"なんとか乗り過ごせた！ナイス！"</font>&lt;/font&gt;) &lt;/li&gt;</li>
+    <li>&lt;/ol&gt;&lt;/code&gt;</li>
+    </ol></code>
